@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Ultimate Team</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+        <img src="/img/Ultimate Team.png" width="100px" height="100px" alt="">
+        <form class="form_search">
+            <img src="/img/icon-search.svg" alt="search icon">
+            <input type="text" placeholder="Search For Player...">
+            <div>
+                <button type="submit" id="">Search</button>
+            </div>
+        </form>
+        <div class="navlist">
+            <h5> <a href="">Players</a></h5>
+            <h5> <a href="">Squad Builder</a></h5>
+            <h5> <a href="">SBCs</a></h5>
+            <h5> <a href="">Squads</a></h5>
+            <h5> <a href="">Market</a></h5>
+        </div>
+        <div class="sign_btn">
+            <button type="submit">Sign in</button>
+        </div>
+        </nav>
+</header>
+    <div class="banchlist hidden" id="cardsinbench">
+
+    </div>
+        <section class="terrain">
+          <div>
+          <div class="stadium border border-black">
+            <div class="carta ps-36">
+              <div class="  w-full h-fit ">
+                  <div class="relative w-[90px] h-[144px] bg-cover bg-center p-[0.8rem_0] bg-[url('https://selimdoyranli.com/cdn/fut-player-card/img/card_bg.png')] transition-all ease-in">
+                    
+                      <i onclick="myFunction()" class="fa-regular fa-square-plus flex justify-center mt-10 text-[2rem] cursor-pointer" style="color: #bd960a;"></i>
+                
+                </div> 
+               </div>
+               <div class=" w-full h-fit ">
+                <div class="relative w-[90px] h-[144px] bg-cover bg-center p-[0.8rem_0] bg-[url('https://selimdoyranli.com/cdn/fut-player-card/img/card_bg.png')] transition-all ease-in">
+                  <i onclick="myFunction()" class="fa-regular fa-square-plus flex justify-center mt-10 text-[2rem] cursor-pointer" style="color: #bd960a;"></i>
+                </div>
+             </div>
+             <div class="   w-full h-fit ">
+              <div class="relative w-[90px] h-[144px] bg-cover bg-center p-[0.8rem_0] bg-[url('https://selimdoyranli.com/cdn/fut-player-card/img/card_bg.png')] transition-all ease-in">
+                <i class="fa-regular fa-square-plus flex justify-center mt-10 text-[2rem] cursor-pointer" style="color: #bd960a;"></i>
+              </div>
+           </div>
+            </div>
+            <div class="carta mt-20 ps-36">
+              <div class="  w-full h-fit ">
+                  <div class="relative w-[90px] h-[144px] bg-cover bg-center p-[0.8rem_0] bg-[url('https://selimdoyranli.com/cdn/fut-player-card/img/card_bg.png')] transition-all ease-in">
+                    <i class="fa-regular fa-square-plus flex justify-center mt-10 text-[2rem] cursor-pointer" style="color: #bd960a;"></i>
+                  </div>
+               </div>
+               <div class=" pt-10 w-full h-fit ">
+                <div class="relative w-[90px] h-[144px] bg-cover bg-center p-[0.8rem_0] bg-[url('https://selimdoyranli.com/cdn/fut-player-card/img/card_bg.png')] transition-all ease-in">
+                  <i class="fa-regular fa-square-plus flex justify-center mt-10 text-[2rem] cursor-pointer" style="color: #bd960a;"></i>
+                </div>
+             </div>
+             <div class="   w-full h-fit ">
+              <div class="relative w-[90px] h-[144px] bg-cover bg-center p-[0.8rem_0] bg-[url('https://selimdoyranli.com/cdn/fut-player-card/img/card_bg.png')] transition-all ease-in">
+                <i class="fa-regular fa-square-plus flex justify-center mt-10 text-[2rem] cursor-pointer" style="color: #bd960a;"></i>
+              </div>
+           </div>
+            </div>
+            <div class="carta2 pt-8 ps-20 ">
+              <div class="  w-full h-fit ">
+                  <div class="relative w-[90px] h-[144px] bg-cover bg-center p-[0.8rem_0] bg-[url('https://selimdoyranli.com/cdn/fut-player-card/img/card_bg.png')] transition-all ease-in">
+                    <i class="fa-regular fa-square-plus flex justify-center mt-10 text-[2rem] cursor-pointer" style="color: #bd960a;"></i>
+                  </div>
+               </div>
+               <div class="mt-20 w-full h-fit ">
+                <div class="relative w-[90px] h-[144px] bg-cover bg-center p-[0.8rem_0] bg-[url('https://selimdoyranli.com/cdn/fut-player-card/img/card_bg.png')] transition-all ease-in">
+                  <i class="fa-regular fa-square-plus flex justify-center mt-10 text-[2rem] cursor-pointer" style="color: #bd960a;"></i>
+                </div>
+             </div>
+             <div class=" mt-20  w-full h-fit ">
+              <div class="relative w-[90px] h-[144px] bg-cover bg-center p-[0.8rem_0] bg-[url('https://selimdoyranli.com/cdn/fut-player-card/img/card_bg.png')] transition-all ease-in">
+                <i class="fa-regular fa-square-plus flex justify-center mt-10 text-[2rem] cursor-pointer" style="color: #bd960a;"></i>
+              </div>
+           </div>
+           <div class="   w-full h-fit ">
+            <div class="relative w-[90px] h-[144px] bg-cover bg-center p-[0.8rem_0] bg-[url('https://selimdoyranli.com/cdn/fut-player-card/img/card_bg.png')] transition-all ease-in">
+              <i class="fa-regular fa-square-plus flex justify-center mt-10 text-[2rem] cursor-pointer" style="color: #bd960a;"></i>
+            </div>
+         </div>
+            </div>
+            <div class=" flex justify-center  w-full h-fit ">
+              <div class="relative w-[90px] h-[144px] bg-cover bg-center p-[0.8rem_0] bg-[url('https://selimdoyranli.com/cdn/fut-player-card/img/card_bg.png')] transition-all ease-in">
+                <i class="fa-regular fa-square-plus flex justify-center mt-10 text-[2rem] cursor-pointer" style="color: #bd960a;"></i>
+              </div>
+           </div>
+              <!-- <div class="grid grid-flow-col">
+                <div class="relative flex items-center justify-center w-full h-screen">
+                    <div class="relative w-[90px] h-[144px] bg-cover bg-center p-[0.8rem_0] bg-[url('https://selimdoyranli.com/cdn/fut-player-card/img/card_bg.png')] transition-all ease-in">
+                      <i class="fa-regular fa-square-plus flex justify-center mt-10 text-[2rem]" style="color: #bd960a;"></i>
+                    </div>
+                  </div>
+                  <div class="relative flex items-center justify-center w-full h-screen">
+                    <div class="relative w-[90px] h-[144px] bg-cover bg-center p-[0.8rem_0] bg-[url('https://selimdoyranli.com/cdn/fut-player-card/img/card_bg.png')] transition-all ease-in">
+                      <i class="fa-regular fa-square-plus flex justify-center mt-10 text-[2rem]" style="color: #bd960a;"></i>
+                    </div>
+                  </div>
+                  <div class="relative flex items-center justify-center w-full h-screen">
+                    <div class="relative w-[90px] h-[144px] bg-cover bg-center p-[0.8rem_0] bg-[url('https://selimdoyranli.com/cdn/fut-player-card/img/card_bg.png')] transition-all ease-in">
+                      <i class="fa-regular fa-square-plus flex justify-center mt-10 text-[2rem]" style="color: #bd960a;"></i>
+                    </div>
+                  </div>
+                </div> -->
+          </div>
+         </div>
+
+         
+            <div class="formation ">
+              <div class="mt-1 mb-2">
+                <h3 class=" text-white">Formation</h3>
+                <select class="select_box " style="width: 10rem;">
+                    <option value="1">4.3.3</option>
+                    <option value="2">4.4.2</option>
+                </select>
+              </div>
+
+      <form class="bg-gray-500 rounded-[0.5rem]">
+              <div >
+                <label for="name" class="text-white ml-3 mt-3">Nom du joueur :</label><br>
+                <input type="text" class="w-32 ml-3 mt-3" id="name" placeholder="Nom du joueur">
+              </div>
+
+              <div class="mt-2">
+                <label for="position" class="text-white ml-3">Position de Jeu :</label><br>
+                <select class="select_position w-32 ml-3 mt-3" name="position" id="position">
+                  <option value="">position</option>
+                  <option value="RW">RW</option>
+                  <option value="LW">LW</option>
+                  <option value="ST">ST</option>
+                  <option value="CM">CM</option>
+                  <option value="CDM">CDM</option>
+                  <option value="CB">CB</option>
+                  <option value="LB">LB</option>
+                  <option value="RB">RB</option>
+                  <option value="GK">GK</option>
+                </select>
+              </div>
+              <div class="playerStat hidden">
+              <div>
+                <label for="Defense" class="text-white mt-3 ml-3">Defending:</label>
+                <input type="text" class="w-32 mt-3 ml-3" id="def" placeholder="def">
+              </div>
+              <div>
+                <label for="Defense" class="text-white mt-3 ml-3">shooting:</label>
+                <input type="text" class="w-32 mt-3 ml-3" id="sho" placeholder="sho">
+              </div>
+              <div>
+                <label for="Defense" class="text-white mt-3 ml-3">Pace:</label>
+                <input type="text" class="w-32 mt-3 ml-3" id="pac" placeholder="pac">
+              </div>
+              <div>
+                <label for="Defense" class="text-white mt-3 ml-3">Passing:</label>
+                <input type="text" class="w-32 mt-3 ml-3" id="pas" placeholder="pas">
+              </div>
+              <div>
+                <label for="Defense" class="text-white mt-3 ml-3">dribbling:</label>
+                <input type="text" class="w-32 mt-3 ml-3" id="dri" placeholder="dri">
+              </div>
+              <div>
+                <label for="Defense" class="text-white mt-3 ml-3">physical:</label>
+                <input type="text" class="w-32 mt-3 ml-3" id="phy" placeholder="phy">
+              </div>
+              <div>
+                <label for="Defense" class="text-white mt-3 ml-3">rating</label>
+                <input type="text" class="w-32 mt-3 ml-3" id="rat" placeholder="rat">
+              </div>
+              <div>
+                <label for="Defense" class="text-white mt-3 ml-3">Photo du joueur:</label>
+                <input type="input" class="w-32 mt-3 ml-3 text-center" id="pic" placeholder="image url" >
+              </div>
+</div>
+
+
+              <div class="boxbtn ml-3 mt-3 mb-3">
+                <button id="btn">Ajouter un joueur</button>
+              </div>
+              
+</form>  
+<form class="bg-gray-500 rounded-[0.5rem]">
+  <div class="goalStat hidden">
+  <div>
+    <label for="Defense" class="text-white mt-3 ml-3">rating:</label>
+    <input type="text" class="w-32 mt-3 ml-3" id="rat" placeholder="rat">
+  </div>
+  <div>
+    <label for="Defense" class="text-white mt-3 ml-3">diving:</label>
+    <input type="text" class="w-32 mt-3 ml-3" id="div" placeholder="div">
+  </div>
+  <div>
+    <label for="Defense" class="text-white mt-3 ml-3">handling:</label>
+    <input type="text" class="w-32 mt-3 ml-3" id="han" placeholder="han">
+  </div>
+  <div>
+    <label for="Defense" class="text-white mt-3 ml-3">kicking:</label>
+    <input type="text" class="w-32 mt-3 ml-3" id="kic" placeholder="kic">
+  </div>
+  <div>
+    <label for="Defense" class="text-white mt-3 ml-3">reflexes:</label>
+    <input type="text" class="w-32 mt-3 ml-3" id="ref" placeholder="ref">
+  </div>
+  <div>
+    <label for="Defense" class="text-white mt-3 ml-3">speed:</label>
+    <input type="text" class="w-32 mt-3 ml-3" id="spe" placeholder="spe">
+  </div>
+  <div>
+    <label for="Defense" class="text-white mt-3 ml-3">positioning</label>
+    <input type="text" class="w-32 mt-3 ml-3" id="post" placeholder="pos">
+  </div>
+  <div>
+    <label for="Defense" class="text-white mt-3 ml-3">Photo du joueur:</label>
+    <input type="input" class="w-32 mt-3 ml-3 text-center" id="pic" placeholder="image url" >
+  </div>
+</div>
+
+
+
+  
+  
+</form>  
+<!-- <div id="msg">
+  <pre></pre> -->
+</div>
+                <!-- <div class="relative flex items-center justify-center w-full h-screen">
+                  <div class="relative w-[90px] h-[144px] bg-cover bg-center p-[0.8rem_0] bg-[url('https://selimdoyranli.com/cdn/fut-player-card/img/card_bg.png')] transition-all ease-in">
+                    <div class="relative flex text-[#e9cc74] px-[0.5rem]">
+                      <div class="absolute py-[0.3rem_0] text-xs uppercase font-light">
+                        <div class="text-[0.8rem] mt-2">97</div>
+                        <div class="text-[0.7rem]">RW</div>
+                        <div class="block my-[0.1rem_0]">
+                          <img src="https://selimdoyranli.com/cdn/fut-player-card/img/argentina.svg" alt="Argentina" class="w-[0.6rem] h-[10px] object-contain" />
+                        </div>
+                        <div class="block">
+                          <img src="https://selimdoyranli.com/cdn/fut-player-card/img/barcelona.svg" alt="Barcelona" class="w-[0.7rem] h-[12px] object-contain" />
+                        </div>
+                      </div>
+                      <div class="w-[52px] h-[52px] mx-auto overflow-hidden">
+                        <img src="https://selimdoyranli.com/cdn/fut-player-card/img/messi.png" alt="Messi" class="w-full h-full object-contain relative right-[-0.5rem] bottom-0" />
+                        <div class="absolute right-0 bottom-[-0.4rem] w-full h-[1rem] text-right text-[#333] text-[0.4rem] font-bold uppercase">
+                          <span class="ml-[0.3rem] text-shadow-lg">4*SM</span>
+                          <span class="ml-[0.3rem] text-shadow-lg">4*WF</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="relative">
+                      <div class="text-[#e9cc74] w-[70%] mx-auto">
+                        <div class="text-center text-[0.8rem] uppercase border-b-2 border-[#e9cc74]/[0.1] pb-[0.2rem]">
+                          <span class="block text-shadow-lg">MESSI</span>
+                        </div>
+                        <div class="flex justify-center mt-[0.2rem]">
+                          <div class="pr-[0.6rem] border-r-2 border-[#e9cc74]/[0.1]">
+                            <div class="flex items-center text-[0.5rem] uppercase">
+                              <span class="font-bold mr-[0.2rem]">97</span>
+                              <span class="font-light">PAC</span>
+                            </div>
+                            <div class="flex items-center text-[0.5rem] uppercase">
+                              <span class="font-bold mr-[0.2rem]">95</span>
+                              <span class="font-light">SHO</span>
+                            </div>
+                            <div class="flex items-center text-[0.5rem] uppercase">
+                              <span class="font-bold mr-[0.2rem]">94</span>
+                              <span class="font-light">PAS</span>
+                            </div>
+                          </div>
+                          <div>
+                            <div class="flex items-center text-[0.5rem] uppercase">
+                              <span class="font-bold mr-[0.2rem]">99</span>
+                              <span class="font-light">DRI</span>
+                            </div>
+                            <div class="flex items-center text-[0.5rem] uppercase">
+                              <span class="font-bold mr-[0.2rem]">35</span>
+                              <span class="font-light">DEF</span>
+                            </div>
+                            <div class="flex items-center text-[0.5rem] uppercase">
+                              <span class="font-bold mr-[0.2rem]">68</span>
+                              <span class="font-light">PHY</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+</div>       
+        </section>
+
+   
+
+  <script src="./JS/script.js"></script>  
+</body>
+</html>
